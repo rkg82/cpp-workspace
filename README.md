@@ -18,3 +18,19 @@ void main()
 }
 
 ```
+
+Build & Run app in `eclipse-che`
+-------------------------------
+
+1. Create a bin folder in the root folder
+2. Open `Terminal in specific container` option from `Terminal` menu
+3. Select `cpp-dev` container and enter `make`
+
+```bash
+make
+```
+4. After build completion, run by
+
+```bash
+./bin/uuid-gen
+```
